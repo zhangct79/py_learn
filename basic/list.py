@@ -1,4 +1,5 @@
 person = ['zhangct', 'guwenren', 'zhanglina']
+person.sort()
 print(person,len(person),person[1],person[-1])
 
 person[1] = 'abc'
