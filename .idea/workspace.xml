@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e5a69a9-48cc-45fa-9091-84f333ff4e34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03adv-feature/iteration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03adv-feature/slices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03adv-feature/generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03adv-feature/iterator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03adv-feature/listGeneration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/01basic/dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/01basic/hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/if.py" beforeDir="false" afterPath="$PROJECT_DIR$/01basic/if.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/01basic/list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/set.py" beforeDir="false" afterPath="$PROJECT_DIR$/01basic/set.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/01basic/tuple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/while.py" beforeDir="false" afterPath="$PROJECT_DIR$/01basic/while.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func/func1.py" beforeDir="false" afterPath="$PROJECT_DIR$/02func/func1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func/func2.py" beforeDir="false" afterPath="$PROJECT_DIR$/02func/func2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func/func3.py" beforeDir="false" afterPath="$PROJECT_DIR$/02func/func3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func/func4.py" beforeDir="false" afterPath="$PROJECT_DIR$/02func/func4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03adv-feature/iteration.py" beforeDir="false" afterPath="$PROJECT_DIR$/03adv-feature/iteration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03adv-feature/slices.py" beforeDir="false" afterPath="$PROJECT_DIR$/03adv-feature/slices.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +52,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.iteration">
-    <configuration name="dict (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.iterator">
+    <configuration name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,55 +61,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03adv-feature" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/dict.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="func1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py_learn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/func" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func/func1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="func4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py_learn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/func" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func/func4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03adv-feature/generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,6 +87,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03adv-feature/iteration.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="iterator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03adv-feature" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03adv-feature/iterator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="listGeneration" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03adv-feature" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03adv-feature/listGeneration.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.iteration" />
+        <item itemvalue="Python.iterator" />
+        <item itemvalue="Python.listGeneration" />
+        <item itemvalue="Python.generator" />
         <item itemvalue="Python.slices" />
-        <item itemvalue="Python.func4" />
-        <item itemvalue="Python.func1" />
-        <item itemvalue="Python.dict (1)" />
+        <item itemvalue="Python.iteration" />
       </list>
     </recent_temporary>
   </component>
