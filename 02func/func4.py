@@ -21,3 +21,5 @@ def fact_iter(n, result):
     if n==1:
         return result
     return fact_iter(n - 1, n * result)
+
+#print(fact_tail(1000))
