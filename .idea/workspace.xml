@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e5a69a9-48cc-45fa-9091-84f333ff4e34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/17asyncio/02asyncio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17asyncio/02asyncio_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17asyncio/02asyncio_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17asyncio/03await.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17asyncio/04aiohttp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18yield/01yield_from.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18yield/02yield.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18yield/03yield.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/py_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py_learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17asyncio/01coroutine.py" beforeDir="false" afterPath="$PROJECT_DIR$/17asyncio/01coroutine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03adv-feature/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/03adv-feature/04generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03adv-feature/iteration.py" beforeDir="false" afterPath="$PROJECT_DIR$/03adv-feature/02iteration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03adv-feature/iterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/03adv-feature/05iterator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03adv-feature/listGeneration.py" beforeDir="false" afterPath="$PROJECT_DIR$/03adv-feature/03listGeneration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03adv-feature/slices.py" beforeDir="false" afterPath="$PROJECT_DIR$/03adv-feature/01slices.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +43,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/14email/attachment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -68,8 +72,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.04aiohttp">
-    <configuration name="02asyncio" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.03yield">
+    <configuration name="01yield_from" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,12 +81,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17asyncio" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18yield" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17asyncio/02asyncio.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18yield/01yield_from.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02asyncio_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="02yield" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,12 +103,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17asyncio" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18yield" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17asyncio/02asyncio_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18yield/02yield.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02asyncio_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="03yield" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,12 +125,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17asyncio" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18yield" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17asyncio/02asyncio_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18yield/03yield.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03await" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="iterator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,12 +147,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17asyncio" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03adv-feature" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17asyncio/03await.py" />
+      <option name="SCRIPT_NAME" value="D:\PycharmProjects\py_learn\03adv-feature\05iterator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04aiohttp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="listGeneration" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,12 +169,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17asyncio" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03adv-feature" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17asyncio/04aiohttp.py" />
+      <option name="SCRIPT_NAME" value="D:\PycharmProjects\py_learn\03adv-feature\03listGeneration.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.04aiohttp" />
-        <item itemvalue="Python.03await" />
-        <item itemvalue="Python.02asyncio_3" />
-        <item itemvalue="Python.02asyncio_2" />
-        <item itemvalue="Python.02asyncio" />
+        <item itemvalue="Python.03yield" />
+        <item itemvalue="Python.02yield" />
+        <item itemvalue="Python.01yield_from" />
+        <item itemvalue="Python.iterator" />
+        <item itemvalue="Python.listGeneration" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +212,7 @@
       <workItem from="1568025304625" duration="4961000" />
       <workItem from="1568949687833" duration="3907000" />
       <workItem from="1569207654068" duration="88740000" />
+      <workItem from="1569721559924" duration="12756000" />
     </task>
     <task id="LOCAL-00001" summary="新增func包">
       <created>1567689064514</created>
@@ -254,7 +259,8 @@
     <SUITE FILE_PATH="coverage/py_learn$03multi_thread.coverage" NAME="03multi_thread Coverage Results" MODIFIED="1569483137284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10thread" />
     <SUITE FILE_PATH="coverage/py_learn$slices.coverage" NAME="slices Coverage Results" MODIFIED="1568081894942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03adv-feature" />
     <SUITE FILE_PATH="coverage/py_learn$app2.coverage" NAME="app2 Coverage Results" MODIFIED="1569578999206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16flask" />
-    <SUITE FILE_PATH="coverage/py_learn$04aiohttp.coverage" NAME="04aiohttp Coverage Results" MODIFIED="1569589555311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17asyncio" />
+    <SUITE FILE_PATH="coverage/py_learn$04aiohttp.coverage" NAME="04aiohttp Coverage Results" MODIFIED="1569724125054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17asyncio" />
+    <SUITE FILE_PATH="coverage/py_learn$02yield.coverage" NAME="02yield Coverage Results" MODIFIED="1569745863505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18yield" />
     <SUITE FILE_PATH="coverage/py_learn$list.coverage" NAME="list Coverage Results" MODIFIED="1567167845214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
     <SUITE FILE_PATH="coverage/py_learn$03await.coverage" NAME="03await Coverage Results" MODIFIED="1569588708513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17asyncio" />
     <SUITE FILE_PATH="coverage/py_learn$func3.coverage" NAME="func3 Coverage Results" MODIFIED="1569546819883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02func" />
@@ -267,10 +273,11 @@
     <SUITE FILE_PATH="coverage/py_learn$hello.coverage" NAME="hello Coverage Results" MODIFIED="1567165430134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_learn$01firstGUI.coverage" NAME="01firstGUI Coverage Results" MODIFIED="1569559985448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13GUI" />
     <SUITE FILE_PATH="coverage/py_learn$02asyncio.coverage" NAME="02asyncio Coverage Results" MODIFIED="1569588188601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17asyncio" />
+    <SUITE FILE_PATH="coverage/py_learn$01yield_from.coverage" NAME="01yield_from Coverage Results" MODIFIED="1569742858230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18yield" />
     <SUITE FILE_PATH="coverage/py_learn$string.coverage" NAME="string Coverage Results" MODIFIED="1569311945427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01basic" />
     <SUITE FILE_PATH="coverage/py_learn$01process.coverage" NAME="01process Coverage Results" MODIFIED="1569481954884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10thread" />
     <SUITE FILE_PATH="coverage/py_learn$func4.coverage" NAME="func4 Coverage Results" MODIFIED="1569546811832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02func" />
-    <SUITE FILE_PATH="coverage/py_learn$iterator.coverage" NAME="iterator Coverage Results" MODIFIED="1569231198460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03adv-feature" />
+    <SUITE FILE_PATH="coverage/py_learn$iterator.coverage" NAME="iterator Coverage Results" MODIFIED="1569741352117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03adv-feature" />
     <SUITE FILE_PATH="coverage/py_learn$01pillow.coverage" NAME="01pillow Coverage Results" MODIFIED="1569557258798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12third_party_module" />
     <SUITE FILE_PATH="coverage/py_learn$02turtle.coverage" NAME="02turtle Coverage Results" MODIFIED="1569560198443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13GUI" />
     <SUITE FILE_PATH="coverage/py_learn$dict.coverage" NAME="dict Coverage Results" MODIFIED="1569577064306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01basic" />
@@ -280,6 +287,7 @@
     <SUITE FILE_PATH="coverage/py_learn$03sorted.coverage" NAME="03sorted Coverage Results" MODIFIED="1569303410068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04func-programming" />
     <SUITE FILE_PATH="coverage/py_learn$06HTMLParser.coverage" NAME="06HTMLParser Coverage Results" MODIFIED="1569555830787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11built_in_module" />
     <SUITE FILE_PATH="coverage/py_learn$04errorRaise.coverage" NAME="04errorRaise Coverage Results" MODIFIED="1569413184217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08error" />
+    <SUITE FILE_PATH="coverage/py_learn$03yield.coverage" NAME="03yield Coverage Results" MODIFIED="1569746144241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18yield" />
     <SUITE FILE_PATH="coverage/py_learn$02Inheritance.coverage" NAME="02Inheritance Coverage Results" MODIFIED="1569319709881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06oop" />
     <SUITE FILE_PATH="coverage/py_learn$func2.coverage" NAME="func2 Coverage Results" MODIFIED="1568028433776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
     <SUITE FILE_PATH="coverage/py_learn$01collections.coverage" NAME="01collections Coverage Results" MODIFIED="1569552625130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11built_in_module" />
@@ -308,11 +316,11 @@
     <SUITE FILE_PATH="coverage/py_learn$02asyncio_2.coverage" NAME="02asyncio_2 Coverage Results" MODIFIED="1569588364593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17asyncio" />
     <SUITE FILE_PATH="coverage/py_learn$03errorLogging.coverage" NAME="03errorLogging Coverage Results" MODIFIED="1569412595714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08error" />
     <SUITE FILE_PATH="coverage/py_learn$func1.coverage" NAME="func1 Coverage Results" MODIFIED="1568026848110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
-    <SUITE FILE_PATH="coverage/py_learn$02asyncio_3.coverage" NAME="02asyncio_3 Coverage Results" MODIFIED="1569588442930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17asyncio" />
+    <SUITE FILE_PATH="coverage/py_learn$02asyncio_3.coverage" NAME="02asyncio_3 Coverage Results" MODIFIED="1569722489572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17asyncio" />
     <SUITE FILE_PATH="coverage/py_learn$03itertools_2.coverage" NAME="03itertools_2 Coverage Results" MODIFIED="1569554474148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11built_in_module" />
     <SUITE FILE_PATH="coverage/py_learn$02property.coverage" NAME="02property Coverage Results" MODIFIED="1569410483958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07oopAdv" />
     <SUITE FILE_PATH="coverage/py_learn$tuple.coverage" NAME="tuple Coverage Results" MODIFIED="1567166048193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/py_learn$listGeneration.coverage" NAME="listGeneration Coverage Results" MODIFIED="1569297268116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03adv-feature" />
     <SUITE FILE_PATH="coverage/py_learn$app.coverage" NAME="app Coverage Results" MODIFIED="1569578317083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16flask" />
+    <SUITE FILE_PATH="coverage/py_learn$listGeneration.coverage" NAME="listGeneration Coverage Results" MODIFIED="1569741249989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03adv-feature" />
   </component>
 </project>

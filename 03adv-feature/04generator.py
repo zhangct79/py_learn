@@ -1,4 +1,6 @@
 #生成器#
+#生成器（generator）保存的是算法，生成器是一种特殊的函数
+
 
 g = (x * x for x in range(1,11))
 print(g)

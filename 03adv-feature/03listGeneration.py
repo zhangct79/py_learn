@@ -1,6 +1,8 @@
 #列表生成器#
 import os
 
+print("==============")
+
 L = list(range(1,11))
 print(L)
 
