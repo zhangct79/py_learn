@@ -1,0 +1,9 @@
+2020-03-28 01:16:03 base.py [line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-03-28 01:16:03 base.py [line:881] INFO Added job "aps_task" to job store "default"
+2020-03-28 01:16:03 base.py [line:166] INFO Scheduler started
+2020-03-28 01:16:58 base.py [line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-03-28 01:16:58 base.py [line:881] INFO Added job "aps_task" to job store "default"
+2020-03-28 01:16:58 base.py [line:166] INFO Scheduler started
+2020-03-28 10:22:15 base.py [line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-03-28 10:22:15 base.py [line:881] INFO Added job "aps_task" to job store "default"
+2020-03-28 10:22:15 base.py [line:166] INFO Scheduler started

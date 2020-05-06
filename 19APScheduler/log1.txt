@@ -1,0 +1,228 @@
+2020-03-27 23:57:04 base.py [line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-03-27 23:57:04 base.py [line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-03-27 23:57:04 base.py [line:881] INFO Added job "date_task" to job store "default"
+2020-03-27 23:57:04 base.py [line:881] INFO Added job "aps_task" to job store "default"
+2020-03-27 23:57:04 base.py [line:166] INFO Scheduler started
+2020-03-27 23:57:07 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:07 CST)" (scheduled at 2020-03-27 23:57:07.679842+08:00)
+2020-03-27 23:57:07 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:10 CST)" executed successfully
+2020-03-27 23:57:10 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:10 CST)" (scheduled at 2020-03-27 23:57:10.679842+08:00)
+2020-03-27 23:57:10 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:10 CST)" executed successfully
+2020-03-27 23:57:13 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:13 CST)" (scheduled at 2020-03-27 23:57:13.679842+08:00)
+2020-03-27 23:57:13 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:13 CST)" executed successfully
+2020-03-27 23:57:16 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:16 CST)" (scheduled at 2020-03-27 23:57:16.679842+08:00)
+2020-03-27 23:57:16 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:19 CST)" executed successfully
+2020-03-27 23:57:19 base.py [line:123] INFO Running job "date_task (trigger: date[2020-03-27 23:57:04 CST], next run at: 2020-03-27 23:57:19 CST)" (scheduled at 2020-03-27 23:57:19.632651+08:00)
+2020-03-27 23:57:19 base.py [line:627] INFO Removed job date_task
+2020-03-27 23:57:19 base.py [line:131] ERROR Job "date_task (trigger: date[2020-03-27 23:57:04 CST], next run at: 2020-03-27 23:57:19 CST)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Tao\AppData\Local\Programs\Python\Python37-32\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "D:/PycharmProjects/py_learn/19APScheduler/listen_event.py", line 15, in date_task
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-03-27 23:57:19 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:19 CST)" (scheduled at 2020-03-27 23:57:19.679842+08:00)
+2020-03-27 23:57:19 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:19 CST)" executed successfully
+2020-03-27 23:57:22 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:22 CST)" (scheduled at 2020-03-27 23:57:22.679842+08:00)
+2020-03-27 23:57:22 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:25 CST)" executed successfully
+2020-03-27 23:57:25 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:25 CST)" (scheduled at 2020-03-27 23:57:25.679842+08:00)
+2020-03-27 23:57:25 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:25 CST)" executed successfully
+2020-03-27 23:57:28 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:28 CST)" (scheduled at 2020-03-27 23:57:28.679842+08:00)
+2020-03-27 23:57:28 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:31 CST)" executed successfully
+2020-03-27 23:57:31 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:31 CST)" (scheduled at 2020-03-27 23:57:31.679842+08:00)
+2020-03-27 23:57:31 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:34 CST)" executed successfully
+2020-03-27 23:57:34 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:37 CST)" (scheduled at 2020-03-27 23:57:34.679842+08:00)
+2020-03-27 23:57:34 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:37 CST)" executed successfully
+2020-03-27 23:57:37 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:40 CST)" (scheduled at 2020-03-27 23:57:37.679842+08:00)
+2020-03-27 23:57:37 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:40 CST)" executed successfully
+2020-03-27 23:57:40 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:43 CST)" (scheduled at 2020-03-27 23:57:40.679842+08:00)
+2020-03-27 23:57:40 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:43 CST)" executed successfully
+2020-03-27 23:57:43 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:46 CST)" (scheduled at 2020-03-27 23:57:43.679842+08:00)
+2020-03-27 23:57:43 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:46 CST)" executed successfully
+2020-03-27 23:57:46 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:49 CST)" (scheduled at 2020-03-27 23:57:46.679842+08:00)
+2020-03-27 23:57:46 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:49 CST)" executed successfully
+2020-03-27 23:57:49 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:52 CST)" (scheduled at 2020-03-27 23:57:49.679842+08:00)
+2020-03-27 23:57:49 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:52 CST)" executed successfully
+2020-03-27 23:57:52 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:55 CST)" (scheduled at 2020-03-27 23:57:52.679842+08:00)
+2020-03-27 23:57:52 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:55 CST)" executed successfully
+2020-03-27 23:57:55 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:58 CST)" (scheduled at 2020-03-27 23:57:55.679842+08:00)
+2020-03-27 23:57:55 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:57:58 CST)" executed successfully
+2020-03-27 23:57:58 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:01 CST)" (scheduled at 2020-03-27 23:57:58.679842+08:00)
+2020-03-27 23:57:58 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:01 CST)" executed successfully
+2020-03-27 23:58:01 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:04 CST)" (scheduled at 2020-03-27 23:58:01.679842+08:00)
+2020-03-27 23:58:01 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:04 CST)" executed successfully
+2020-03-27 23:58:04 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:07 CST)" (scheduled at 2020-03-27 23:58:04.679842+08:00)
+2020-03-27 23:58:04 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:07 CST)" executed successfully
+2020-03-27 23:58:07 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:10 CST)" (scheduled at 2020-03-27 23:58:07.679842+08:00)
+2020-03-27 23:58:07 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:10 CST)" executed successfully
+2020-03-27 23:58:10 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:13 CST)" (scheduled at 2020-03-27 23:58:10.679842+08:00)
+2020-03-27 23:58:10 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:13 CST)" executed successfully
+2020-03-27 23:58:13 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:16 CST)" (scheduled at 2020-03-27 23:58:13.679842+08:00)
+2020-03-27 23:58:13 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:16 CST)" executed successfully
+2020-03-27 23:58:16 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:19 CST)" (scheduled at 2020-03-27 23:58:16.679842+08:00)
+2020-03-27 23:58:16 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:19 CST)" executed successfully
+2020-03-27 23:58:19 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:22 CST)" (scheduled at 2020-03-27 23:58:19.679842+08:00)
+2020-03-27 23:58:19 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:22 CST)" executed successfully
+2020-03-27 23:58:22 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:25 CST)" (scheduled at 2020-03-27 23:58:22.679842+08:00)
+2020-03-27 23:58:22 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:25 CST)" executed successfully
+2020-03-27 23:58:25 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:28 CST)" (scheduled at 2020-03-27 23:58:25.679842+08:00)
+2020-03-27 23:58:25 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:28 CST)" executed successfully
+2020-03-27 23:58:28 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:31 CST)" (scheduled at 2020-03-27 23:58:28.679842+08:00)
+2020-03-27 23:58:28 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:31 CST)" executed successfully
+2020-03-27 23:58:31 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:34 CST)" (scheduled at 2020-03-27 23:58:31.679842+08:00)
+2020-03-27 23:58:31 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:34 CST)" executed successfully
+2020-03-27 23:58:34 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:37 CST)" (scheduled at 2020-03-27 23:58:34.679842+08:00)
+2020-03-27 23:58:34 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:37 CST)" executed successfully
+2020-03-27 23:58:37 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:40 CST)" (scheduled at 2020-03-27 23:58:37.679842+08:00)
+2020-03-27 23:58:37 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:40 CST)" executed successfully
+2020-03-27 23:58:40 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:43 CST)" (scheduled at 2020-03-27 23:58:40.679842+08:00)
+2020-03-27 23:58:40 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:43 CST)" executed successfully
+2020-03-27 23:58:43 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:46 CST)" (scheduled at 2020-03-27 23:58:43.679842+08:00)
+2020-03-27 23:58:43 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:46 CST)" executed successfully
+2020-03-27 23:58:46 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:49 CST)" (scheduled at 2020-03-27 23:58:46.679842+08:00)
+2020-03-27 23:58:46 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:49 CST)" executed successfully
+2020-03-27 23:58:49 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:52 CST)" (scheduled at 2020-03-27 23:58:49.679842+08:00)
+2020-03-27 23:58:49 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:52 CST)" executed successfully
+2020-03-27 23:58:52 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:55 CST)" (scheduled at 2020-03-27 23:58:52.679842+08:00)
+2020-03-27 23:58:52 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:55 CST)" executed successfully
+2020-03-27 23:58:55 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:58 CST)" (scheduled at 2020-03-27 23:58:55.679842+08:00)
+2020-03-27 23:58:55 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:58:58 CST)" executed successfully
+2020-03-27 23:58:58 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:01 CST)" (scheduled at 2020-03-27 23:58:58.679842+08:00)
+2020-03-27 23:58:58 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:01 CST)" executed successfully
+2020-03-27 23:59:01 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:04 CST)" (scheduled at 2020-03-27 23:59:01.679842+08:00)
+2020-03-27 23:59:01 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:04 CST)" executed successfully
+2020-03-27 23:59:04 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:07 CST)" (scheduled at 2020-03-27 23:59:04.679842+08:00)
+2020-03-27 23:59:04 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:07 CST)" executed successfully
+2020-03-27 23:59:07 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:10 CST)" (scheduled at 2020-03-27 23:59:07.679842+08:00)
+2020-03-27 23:59:07 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:10 CST)" executed successfully
+2020-03-27 23:59:10 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:13 CST)" (scheduled at 2020-03-27 23:59:10.679842+08:00)
+2020-03-27 23:59:10 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:13 CST)" executed successfully
+2020-03-27 23:59:13 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:16 CST)" (scheduled at 2020-03-27 23:59:13.679842+08:00)
+2020-03-27 23:59:13 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:16 CST)" executed successfully
+2020-03-27 23:59:16 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:19 CST)" (scheduled at 2020-03-27 23:59:16.679842+08:00)
+2020-03-27 23:59:16 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:19 CST)" executed successfully
+2020-03-27 23:59:19 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:22 CST)" (scheduled at 2020-03-27 23:59:19.679842+08:00)
+2020-03-27 23:59:19 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:22 CST)" executed successfully
+2020-03-27 23:59:22 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:25 CST)" (scheduled at 2020-03-27 23:59:22.679842+08:00)
+2020-03-27 23:59:22 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:25 CST)" executed successfully
+2020-03-27 23:59:25 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:28 CST)" (scheduled at 2020-03-27 23:59:25.679842+08:00)
+2020-03-27 23:59:25 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:28 CST)" executed successfully
+2020-03-27 23:59:28 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:31 CST)" (scheduled at 2020-03-27 23:59:28.679842+08:00)
+2020-03-27 23:59:28 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:31 CST)" executed successfully
+2020-03-27 23:59:31 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:34 CST)" (scheduled at 2020-03-27 23:59:31.679842+08:00)
+2020-03-27 23:59:31 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:34 CST)" executed successfully
+2020-03-27 23:59:34 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:37 CST)" (scheduled at 2020-03-27 23:59:34.679842+08:00)
+2020-03-27 23:59:34 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:37 CST)" executed successfully
+2020-03-27 23:59:37 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:40 CST)" (scheduled at 2020-03-27 23:59:37.679842+08:00)
+2020-03-27 23:59:37 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:40 CST)" executed successfully
+2020-03-27 23:59:40 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:43 CST)" (scheduled at 2020-03-27 23:59:40.679842+08:00)
+2020-03-27 23:59:40 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:43 CST)" executed successfully
+2020-03-27 23:59:43 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:46 CST)" (scheduled at 2020-03-27 23:59:43.679842+08:00)
+2020-03-27 23:59:43 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:46 CST)" executed successfully
+2020-03-27 23:59:46 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:49 CST)" (scheduled at 2020-03-27 23:59:46.679842+08:00)
+2020-03-27 23:59:46 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:49 CST)" executed successfully
+2020-03-27 23:59:49 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:52 CST)" (scheduled at 2020-03-27 23:59:49.679842+08:00)
+2020-03-27 23:59:49 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:52 CST)" executed successfully
+2020-03-27 23:59:52 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:55 CST)" (scheduled at 2020-03-27 23:59:52.679842+08:00)
+2020-03-27 23:59:52 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:55 CST)" executed successfully
+2020-03-27 23:59:55 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:58 CST)" (scheduled at 2020-03-27 23:59:55.679842+08:00)
+2020-03-27 23:59:55 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-27 23:59:58 CST)" executed successfully
+2020-03-27 23:59:58 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:01 CST)" (scheduled at 2020-03-27 23:59:58.679842+08:00)
+2020-03-27 23:59:58 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:01 CST)" executed successfully
+2020-03-28 00:00:01 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:04 CST)" (scheduled at 2020-03-28 00:00:01.679842+08:00)
+2020-03-28 00:00:01 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:04 CST)" executed successfully
+2020-03-28 00:00:04 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:07 CST)" (scheduled at 2020-03-28 00:00:04.679842+08:00)
+2020-03-28 00:00:04 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:07 CST)" executed successfully
+2020-03-28 00:00:07 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:10 CST)" (scheduled at 2020-03-28 00:00:07.679842+08:00)
+2020-03-28 00:00:07 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:10 CST)" executed successfully
+2020-03-28 00:00:10 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:13 CST)" (scheduled at 2020-03-28 00:00:10.679842+08:00)
+2020-03-28 00:00:10 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:13 CST)" executed successfully
+2020-03-28 00:00:13 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:16 CST)" (scheduled at 2020-03-28 00:00:13.679842+08:00)
+2020-03-28 00:00:13 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:16 CST)" executed successfully
+2020-03-28 00:00:16 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:19 CST)" (scheduled at 2020-03-28 00:00:16.679842+08:00)
+2020-03-28 00:00:16 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:19 CST)" executed successfully
+2020-03-28 00:00:19 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:22 CST)" (scheduled at 2020-03-28 00:00:19.679842+08:00)
+2020-03-28 00:00:19 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:22 CST)" executed successfully
+2020-03-28 00:00:22 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:25 CST)" (scheduled at 2020-03-28 00:00:22.679842+08:00)
+2020-03-28 00:00:22 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:25 CST)" executed successfully
+2020-03-28 00:00:25 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:28 CST)" (scheduled at 2020-03-28 00:00:25.679842+08:00)
+2020-03-28 00:00:25 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:28 CST)" executed successfully
+2020-03-28 00:00:28 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:31 CST)" (scheduled at 2020-03-28 00:00:28.679842+08:00)
+2020-03-28 00:00:28 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:31 CST)" executed successfully
+2020-03-28 00:00:31 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:34 CST)" (scheduled at 2020-03-28 00:00:31.679842+08:00)
+2020-03-28 00:00:31 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:34 CST)" executed successfully
+2020-03-28 00:00:34 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:37 CST)" (scheduled at 2020-03-28 00:00:34.679842+08:00)
+2020-03-28 00:00:34 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:37 CST)" executed successfully
+2020-03-28 00:00:37 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:40 CST)" (scheduled at 2020-03-28 00:00:37.679842+08:00)
+2020-03-28 00:00:37 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:40 CST)" executed successfully
+2020-03-28 00:00:40 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:43 CST)" (scheduled at 2020-03-28 00:00:40.679842+08:00)
+2020-03-28 00:00:40 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:43 CST)" executed successfully
+2020-03-28 00:00:43 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:46 CST)" (scheduled at 2020-03-28 00:00:43.679842+08:00)
+2020-03-28 00:00:43 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:46 CST)" executed successfully
+2020-03-28 00:00:46 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:49 CST)" (scheduled at 2020-03-28 00:00:46.679842+08:00)
+2020-03-28 00:00:46 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:49 CST)" executed successfully
+2020-03-28 00:00:49 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:52 CST)" (scheduled at 2020-03-28 00:00:49.679842+08:00)
+2020-03-28 00:00:49 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:52 CST)" executed successfully
+2020-03-28 00:00:52 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:55 CST)" (scheduled at 2020-03-28 00:00:52.679842+08:00)
+2020-03-28 00:00:52 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:55 CST)" executed successfully
+2020-03-28 00:00:55 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:58 CST)" (scheduled at 2020-03-28 00:00:55.679842+08:00)
+2020-03-28 00:00:55 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:00:58 CST)" executed successfully
+2020-03-28 00:00:58 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:01 CST)" (scheduled at 2020-03-28 00:00:58.679842+08:00)
+2020-03-28 00:00:58 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:01 CST)" executed successfully
+2020-03-28 00:01:01 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:04 CST)" (scheduled at 2020-03-28 00:01:01.679842+08:00)
+2020-03-28 00:01:01 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:04 CST)" executed successfully
+2020-03-28 00:01:04 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:07 CST)" (scheduled at 2020-03-28 00:01:04.679842+08:00)
+2020-03-28 00:01:04 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:07 CST)" executed successfully
+2020-03-28 00:01:07 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:10 CST)" (scheduled at 2020-03-28 00:01:07.679842+08:00)
+2020-03-28 00:01:07 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:10 CST)" executed successfully
+2020-03-28 00:01:10 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:13 CST)" (scheduled at 2020-03-28 00:01:10.679842+08:00)
+2020-03-28 00:01:10 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:13 CST)" executed successfully
+2020-03-28 00:01:13 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:16 CST)" (scheduled at 2020-03-28 00:01:13.679842+08:00)
+2020-03-28 00:01:13 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:16 CST)" executed successfully
+2020-03-28 00:01:16 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:19 CST)" (scheduled at 2020-03-28 00:01:16.679842+08:00)
+2020-03-28 00:01:16 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:19 CST)" executed successfully
+2020-03-28 00:01:19 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:22 CST)" (scheduled at 2020-03-28 00:01:19.679842+08:00)
+2020-03-28 00:01:19 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:22 CST)" executed successfully
+2020-03-28 00:01:22 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:25 CST)" (scheduled at 2020-03-28 00:01:22.679842+08:00)
+2020-03-28 00:01:22 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:25 CST)" executed successfully
+2020-03-28 00:01:25 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:28 CST)" (scheduled at 2020-03-28 00:01:25.679842+08:00)
+2020-03-28 00:01:25 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:28 CST)" executed successfully
+2020-03-28 00:01:28 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:31 CST)" (scheduled at 2020-03-28 00:01:28.679842+08:00)
+2020-03-28 00:01:28 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:31 CST)" executed successfully
+2020-03-28 00:01:31 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:34 CST)" (scheduled at 2020-03-28 00:01:31.679842+08:00)
+2020-03-28 00:01:31 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:34 CST)" executed successfully
+2020-03-28 00:01:34 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:37 CST)" (scheduled at 2020-03-28 00:01:34.679842+08:00)
+2020-03-28 00:01:34 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:37 CST)" executed successfully
+2020-03-28 00:01:37 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:40 CST)" (scheduled at 2020-03-28 00:01:37.679842+08:00)
+2020-03-28 00:01:37 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:40 CST)" executed successfully
+2020-03-28 00:01:40 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:43 CST)" (scheduled at 2020-03-28 00:01:40.679842+08:00)
+2020-03-28 00:01:40 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:43 CST)" executed successfully
+2020-03-28 00:01:43 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:46 CST)" (scheduled at 2020-03-28 00:01:43.679842+08:00)
+2020-03-28 00:01:43 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:46 CST)" executed successfully
+2020-03-28 00:01:46 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:49 CST)" (scheduled at 2020-03-28 00:01:46.679842+08:00)
+2020-03-28 00:01:46 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 00:01:49 CST)" executed successfully
+2020-03-28 10:18:49 base.py [line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-03-28 10:18:49 base.py [line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-03-28 10:18:49 base.py [line:881] INFO Added job "date_task" to job store "default"
+2020-03-28 10:18:49 base.py [line:881] INFO Added job "aps_task" to job store "default"
+2020-03-28 10:18:49 base.py [line:166] INFO Scheduler started
+2020-03-28 10:18:52 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 10:18:52 CST)" (scheduled at 2020-03-28 10:18:52.624915+08:00)
+2020-03-28 10:18:52 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 10:18:55 CST)" executed successfully
+2020-03-28 10:18:55 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 10:18:55 CST)" (scheduled at 2020-03-28 10:18:55.624915+08:00)
+2020-03-28 10:18:55 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 10:18:55 CST)" executed successfully
+2020-03-28 10:18:58 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 10:18:58 CST)" (scheduled at 2020-03-28 10:18:58.624915+08:00)
+2020-03-28 10:18:58 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 10:19:01 CST)" executed successfully
+2020-03-28 10:19:01 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 10:19:01 CST)" (scheduled at 2020-03-28 10:19:01.624915+08:00)
+2020-03-28 10:19:01 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 10:19:04 CST)" executed successfully
+2020-03-28 10:19:04 base.py [line:123] INFO Running job "date_task (trigger: date[2020-03-28 10:18:49 CST], next run at: 2020-03-28 10:19:04 CST)" (scheduled at 2020-03-28 10:19:04.470326+08:00)
+2020-03-28 10:19:04 base.py [line:627] INFO Removed job date_task
+2020-03-28 10:19:04 base.py [line:131] ERROR Job "date_task (trigger: date[2020-03-28 10:18:49 CST], next run at: 2020-03-28 10:19:04 CST)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Tao\AppData\Local\Programs\Python\Python37-32\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "listen_event.py", line 15, in date_task
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-03-28 10:19:04 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 10:19:04 CST)" (scheduled at 2020-03-28 10:19:04.624915+08:00)
+2020-03-28 10:19:04 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 10:19:07 CST)" executed successfully
+2020-03-28 10:19:07 base.py [line:123] INFO Running job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 10:19:07 CST)" (scheduled at 2020-03-28 10:19:07.624915+08:00)
+2020-03-28 10:19:07 base.py [line:144] INFO Job "aps_task (trigger: interval[0:00:03], next run at: 2020-03-28 10:19:10 CST)" executed successfully

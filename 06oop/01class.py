@@ -11,3 +11,5 @@ stu = Student("张春涛", 99)
 stu.print()
 stu.score = 60
 stu.print()
+
+print(stu)

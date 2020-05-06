@@ -1,15 +1,14 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+#!/usr/bin/python3
+# Filename: module1.py
 
-' a test module '
-
+import sys
 __author__ = 'Burst'
 
 def _private_1(name):
-    return "Hello s%" % name
+    return "Hello %s" % name
 
 def _private_2(name):
-    return "Hi s%" % name
+    return "Hi %s" % name
 
 def greeting(name):
     if len(name) > 3:
