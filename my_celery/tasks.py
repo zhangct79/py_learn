@@ -1,7 +1,7 @@
 from celery import Celery
 
 
-app = Celery('app2', broker='redis://:root@192.168.164.134:6379/0', backend='redis://:root@192.168.164.134:6379/0')
+app = Celery('app2', broker='redis://:root@192.168.164.134:6379/2', backend='redis://:root@192.168.164.134:6379/3')
 
 @app.task
 def add(x, y):
@@ -9,4 +9,4 @@ def add(x, y):
     return x + y
 
 
-#celery -A celery_tasks.tasks worker -l info -P eventlet
+#celery -A my_celery.tasks worker -l info -P eventlet

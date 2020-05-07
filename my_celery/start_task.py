@@ -1,4 +1,4 @@
-from tasks import add
+from my_celery.tasks import *
 
 result = add.delay(12,12)
 

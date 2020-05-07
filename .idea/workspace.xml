@@ -2,47 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e5a69a9-48cc-45fa-9091-84f333ff4e34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Tao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19APScheduler/background.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19APScheduler/ex_interval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19APScheduler/jobs.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19APScheduler/listen_event.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19APScheduler/log1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19APScheduler/log2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19APScheduler/start_scheduler_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20paramiko/id_rsa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20paramiko/paramiko_user_pwd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20paramiko/sshclient_public_key.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20paramiko/transport_upload_download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22decorate/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22decorate/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22decorate/test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22decorate/test4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22decorate/test5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/celerybeat-schedule.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/celerybeat-schedule.dir" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/celerybeat.pid" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myCeleryProj/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myCeleryProj/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myCeleryProj/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myCeleryProj/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myCeleryProj/tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_celery/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_celery/start_task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_celery/tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/py_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py_learn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23flask-restful/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23flask-restful/test2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01basic/dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/01basic/dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03adv-feature/04generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/03adv-feature/04generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04func-programming/07partialFunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/04func-programming/07partialFunc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05module/hello.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05module/moduleScope.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05module/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06oop/01class.py" beforeDir="false" afterPath="$PROJECT_DIR$/06oop/01class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myCeleryProj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myCeleryProj/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_celery/start_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_celery/start_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_celery/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_celery/tasks.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,8 +79,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.app">
-    <configuration name="01slices" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="01map_reduce" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,32 +88,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03adv-feature" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04func-programming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03adv-feature/01slices.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py_learn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16flask" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16flask/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04func-programming/01map_reduce.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,27 +122,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="my_first_celery" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py_learn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_celery" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_celery/my_first_celery.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="start_task" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,6 +135,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_celery/start_task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23flask-restful" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23flask-restful/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23flask-restful" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23flask-restful/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.01slices" />
         <item itemvalue="Python.start_task" />
-        <item itemvalue="Python.my_first_celery" />
+        <item itemvalue="Python.01map_reduce" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test1" />
       </list>
     </recent_temporary>
   </component>
