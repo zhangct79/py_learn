@@ -20,7 +20,7 @@ eventlet==0.25.1
 greenlet==0.4.15
 idna==2.8
 importlib-metadata==0.23
-Jinja2==2.10.1
+Jinja2==2.11.3
 kombu==4.6.5
 logger==1.4
 MarkupSafe==1.1.1
