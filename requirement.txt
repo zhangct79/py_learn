@@ -17,7 +17,7 @@ chardet==3.0.4
 cryptography==2.7
 databases==0.2.5
 dnspython==1.16.0
-eventlet==0.25.1
+eventlet==0.31.0
 flower==0.9.4
 greenlet==0.4.15
 humanize==0.5.1
